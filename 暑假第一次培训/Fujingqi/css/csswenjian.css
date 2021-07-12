@@ -1,0 +1,127 @@
+li{
+	list-style-type:none;
+}
+
+.social{
+	height: 60px;
+	margin: 20px;
+}
+.social a{
+	text-decoration:none; 
+} 
+.nav-pills > li.active > a, .nav-pills > li.active > a:focus {
+	color: white;
+	background-color: #B6124A;
+}
+			
+.nav-pills > li.active > a:hover {
+	background-color: #B6124A;
+	color:white;
+}
+.a_b{
+	padding: 0;
+}
+h2{
+	font-family: 'Oswald', sans-serif;
+	font-weight: normal;
+}
+blockquote p{
+	font-size: 16px;
+	font-family: 'Oswald', sans-serif;
+}
+.b_c {
+    background-color: #DDDDDD;
+	height: 47px;
+	overflow: hidden;
+	
+    color: black
+    font: italic smaller sans-serif;
+    padding: 0px;
+    text-align: center;
+	font-size: 18px;
+	text-overflow: ellipsis;
+}
+.ig{
+	padding: 0
+}
+.ig img{
+	width: 100%;
+	height: 212.5px;
+}
+@font-face {
+  font-family: 'iconfont';  /* Project id 2666237 */
+  src: url('//at.alicdn.com/t/font_2666237_r5tkmk5yegk.woff2?t=1625991904542') format('woff2'),
+       url('//at.alicdn.com/t/font_2666237_r5tkmk5yegk.woff?t=1625991904542') format('woff'),
+       url('//at.alicdn.com/t/font_2666237_r5tkmk5yegk.ttf?t=1625991904542') format('truetype');
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:36px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+#footer{
+	background-color: #ECECEC;
+}
+.social{
+	background-color: #ECECEC;
+
+}
+.footer2{
+	background-color: #222222;	
+}
+.panel{
+	background-color: #222222;	
+}
+.ig a{
+	font-size: 14px;
+}
+.d-e{
+	background-color: #B6124A;
+	height: 32px;
+	width: 100%;
+	text-align: center;
+}
+.d-e a{
+	color: white;
+	
+	line-height: 32px;
+}
+
+.dropdown-menu{
+	display: none;
+	position: absolute;
+	width: 100%;
+}
+.dropdown-menu{
+	opacity: 0.6;
+	background-color: #000000 !important;
+}
+
+.dropdown-menu li:hover{
+	background-color:#B6124A !important;
+}
+
+.dropdown-menu li a:hover{
+	color: #FFFFFF;
+}
+
+.newactive{
+	background-color: #B6124A;
+	border-radius: 8px;
+	
+}
+
+.newactive:hover{
+	background-color: white;color: white !importanmt;
+}
+
+.collapse{
+	background-color: white;
+}
+
+.navbar navbar-default{
+	margin: 0;
+	padding: 0;
+}
