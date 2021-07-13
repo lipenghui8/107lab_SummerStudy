@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>英文官网-计算机与信息工程学院</title>
+        <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+	    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="css/mystyle.css">
+        <link rel="stylesheet" href="js/bootstrap.js">
+        <link rel="stylesheet" href="js/jquery-3.3.1.min.js">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <link rel="stylesheet" href="./css/bannerStyle.css">
+        <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+    </head>
+    <body>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init({
+              easing:'ease-out-back',
+                duration:900
+            });
+        </script>
+        <!--搭建头部-->
+        <div style="background: url(img/backgroundimg.png) right 0 no-repeat;height: 130px;">
+            <div class="container-fluid">
+                <div class="row" style="margin-top: 30px;">
+                    <div class="col-md-7"><img src="img/henulogo.png"></div>
+                </div>
+            </div>
+        </div>
+        <!--导航栏-->
+        <nav class="navbar navbar-default" role="navigation" style="background-color: white;border: none;color: #B6124A;margin-bottom: 0px;">
+            <div class="container-fluid"> 
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse"
+                        data-target="#example-navbar-collapse" style="background-color: black;">
+                    <span class="sr-only">切换导航</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse pull-right" id="example-navbar-collapse">
+                <ul class="nav navbar-nav" id="daohang">
+                    <li class="newactive"><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" id="renwu" data-toggle="dropdown">
+                            ADMISSION <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu" id="menu">
+                            <li><a href="#">Undergraduate Program</a></li>
+                            <li><a href="#">Master Program</a></li>
+                            <li><a href="#">PhD Program</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">RESEARCH</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                    <li><a href="#">CHINESE</a></li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+
+
+        <!--轮播图-->
+        <header>
+            <div style="background-image: url(images/slides/henu1.jpg);background-repeat: no-repeat;background-size: cover;">
+                    <div class="fullwidthbanner-container">
+                        <div class="fullwidthbanner">
+                            <ul>
+                                <li data-transition="3dcurtain-vertical" data-slotamount="15" data-masterspeed="300" data-link="#">
+                                    <img src="img/banner0.jpg" alt="1" data-bgposition="center 0"/>
+                                    <!--<div class="tp-caption slider-text-title sft str" data-x="center" data-y="400" data-speed="300" data-start="800" data-easing="easeInQuad" data-end="6000" data-endspeed="500" style="padding: 0 100px;font-size:24px; background: rgba(0,0,0,0.6); color: #fff; height: 60px;line-height: 60px;">中职评估调研团队（2013.10）</div>-->
+                                </li>
+                                <li data-transition="papercut" data-slotamount="15" data-masterspeed="300" data-link="#">
+                                    <img src="img/banner1.jpg" alt="2" />
+                                    <!--<div class="tp-caption slider-text-title sft str" data-x="center" data-y="400" data-speed="300" data-start="800" data-easing="easeInQuart" data-end="6000" data-endspeed="500" style="padding: 0 100px;font-size:24px; background: rgba(0,0,0,0.6); color: #fff; height: 60px;line-height: 60px;">中职评估培训会（2014.4）</div>-->
+                                </li>
+                                <li data-transition="slotslide-horizontal" data-slotamount="15" data-masterspeed="300" data-link="#">
+                                    <img src="img/banner2.jpg" alt="3" />
+                                    <!--<div class="tp-caption slider-text-title sft str" data-x="center" data-y="400" data-speed="300" data-start="800" data-easing="easeInQuint" data-end="6000" data-endspeed="500" style="padding: 0 100px;font-size:24px; background: rgba(0,0,0,0.6); color: #fff; height: 60px;line-height: 60px;">中职评估调研团队（2015.4）</div>-->
+                                </li>
+                            </ul>
+                            <div class="tp-bannertimer"></div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <script type="text/javascript" src="js/plugins.min.js"></script>
+            <script type="text/javascript" src="js/revolution.min.js"></script>
+            <script>
+                $(function() {
+                    jQuery('.fullwidthbanner').revolution({
+                        delay: 9000,
+                        startwidth: 1170,
+                        startheight:450,
+                        hideThumbs: 10,
+                        fullWidth: "on",
+                        forceFullWidth: "on"
+                    });
+                });
+            </script>
+
+
+
+        <!--About us-->
+        <div class="container" data-aos="zoom-in">
+            <div class="row">
+                <h3 style="font-family: cursive;color: black;font-size: 30px;margin-top: 2%;" class="col-md-12">About us</h3>
+                <img src="img/xueyuan.png" class="col-md-4" style="margin-top: 1.5%">
+                <div class="col-md-8" id="pa">
+                    <p style="text-indent: 2em;color: black;margin-top: 1.5%;">The school has a first level doctoral degree in Software Engineering discipline, a secondary level doctorate degree in Remote Sensing Information Science and Technology discipline, 3 first level master’s degree in Computer Science and Technology discipline, Software Engineering discipline and Control Science and Engineering discipline, 5 undergraduate disciplines in Computer Science and Technology, Data Science and Big Data Technology, Network Engineering, Information Security and Automation...<a href="#" style="font-size: 17px;">read more</a></p>
+                    <blockquote style="font-family: Georgia;font-style: italic;margin-top: 4%;">
+                        Keep pace with the times, develop and innovate, and turn Henan University into a national top university
+                        <footer>April,7 2004  Jiang Zemin</footer>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+
+
+        <!--news recruitment location-->
+        <div class="container">
+            <div class="row">
+                 <!--News-->
+                 <div class="col-md-4" data-aos="zoom-in" style="margin-top: 2%;">
+                     <h3 style="color: black;font-family: cursive;font-size: 30px;">News</h3>
+                     <hr class="simple" color="#6f5499">
+                     <div class="row">
+                         <div class="col-md-1"><span class="glyphicon glyphicon-play" style="color: rgb(182, 18, 74);font-size: smaller;"></span></div>
+                         <div class="col-md-11"><a href="#" style="color: #B6124A;font-size: 16px;">河南大学第十一届“学佳澳杯”大学生程序设计竞赛获奖名单公布（修订）</a></div>
+                    </div>     
+                 </div>
+                 <!--Recruitment-->
+                 <div class="col-md-4" data-aos="zoom-in" style="margin-top: 2%;">
+                    <h3 style="color: black;font-family: cursive;font-size: 30px;">Recruitment</h3>
+                    <hr class="simple">
+                    <div class="row">
+                        <div class="col-md-1"><span class="glyphicon glyphicon-play" style="color: rgb(182, 18, 74);font-size: smaller;"></span></div>
+                        <div class="col-md-11"><a href="#" style="color: #B6124A;font-size: 16px;">Postdoctoral fellows Recruitment for School of Computer and Information Engineering Henan University</a></div>
+                   </div>     
+                   <hr class="simple">
+                   <div class="row">
+                    <div class="col-md-1"><span class="glyphicon glyphicon-play" style="color: rgb(182, 18, 74);font-size: smaller;"></span></div>
+                    <div class="col-md-11"><a href="#" style="color: #B6124A;font-size: 16px;">THE DOCTORAL COURSE IN School of Computer and Information Engineering HENAN UNIVERSITY</a></div>
+                   </div>    
+                </div>
+                <!--Location-->
+                <div class="col-md-4" data-aos="zoom-in" style="margin-top: 2%;">
+                    <h3 style="color: black;font-family: cursive;font-size: 30px;">Location</h3>
+                    <img src="img/location.png" style="margin-top: 2.5%;">
+                </div>
+            </div>
+        </div>
+
+
+        <!--Provincial platform-->  
+        <div class="container">
+            <h3 style="font-family: cursive;color: black;font-size: 30px;">Provincial platform</h3>
+            <div class="row">
+                <!--one-->
+                <div class="col-md-3 col-sm-6 col-xs-6" data-aos="zoom-in" style="margin-top: 1%;">
+                        <div style="background-color: #B6124A;padding:3%;padding-left: 5%;" id="one"><a href="#" style="font-size: 13px;">Henan Key Laboratory of Big Data...</a></div>
+                        <img src="img/bigdate.png" style="width: 100%;">
+                        <div id="yi"><a href="#" style="color: black;font-size: 13px;">Henan Key Laboratory of Big Data Analysis and Processing...</a></div>
+                </div>
+                <!--two-->
+                <div class="col-md-3 col-sm-6 col-xs-6" data-aos="zoom-in" style="margin-top: 1%;">
+                    <div style="background-color: #B6124A;padding:3%;padding-left: 5%;" id="two"><a href="#" style="font-size: 13px;">Henan Laboratory of Spatial...</a></div>
+                    <img src="img/kjxx.png" style="width: 100%;">
+                    <div id="er"><a href="#" style="color: black;font-size: 13px;">Henan Laboratory of Spatial Information Processing and Engineering</a></div>
+                </div>
+                <!--three-->
+                <div class="col-md-3 col-sm-6 col-xs-6" data-aos="zoom-in" style="margin-top: 1%;">
+                    <div style="background-color: #B6124A;padding:3%;padding-left: 5%;" id="two"><a href="#" style="font-size: 13px;">Henen car networking technology...</a></div>
+                    <img src="img/clw.png" style="width: 100%;">
+                    <div id="san"><a href="#" style="color: black;font-size: 13px;">Henan International Joint Laboratory Collaborative Technologies...</a></div>
+                </div>
+                <!--four-->
+                <div class="col-md-3 col-sm-6 col-xs-6" data-aos="zoom-in" style="margin-top: 1%;">
+                    <div style="background-color: #B6124A;padding:3%;padding-left: 5%;" id="two"><a href="#" style="font-size: 13px;">Henan Intelligent Technology and...</a></div>
+                    <img src="img/znyy.png" style="width: 100%;">
+                    <div id="si"><a href="#" style="color: black;font-size: 13px;">Henan Engineering Research Center of Intelligent Technology...</a></div>
+                </div>
+            </div>
+        </div>    
+
+
+        <!--icon-->
+        <div class="container-fluid" style="background-color: #ECECEC;margin-top: 2%;">
+            <div class="row">
+            <div class="social text-center col-md-12" id="icon">
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-facebook-f"></i></a>
+                <a href="#"><i class="fa fa-dribbble"></i></a>
+                <a href="#"><i class="fa fa-flickr"></i></a>
+                <a href="#"><i class="fa fa-comments-o"></i></a>
+            </div>
+            </div>
+        </div>
+
+
+
+        <!--footer-->
+        <div class="container-fluid" style="background-color: black;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6" id="list">
+                        <p><a href="#">Home</a> | <a href="#">About</a> | <a href="#">Research</a> | <a href="#">Undergraduate</a> | <a href="#">Postgraduate</a> | <a href="#">Contact</a></p>
+                    </div>
+                    <div class="col-md-6 text-right" id="list1">
+                        <p>All copyright © school of computer and information engineering henan university</p>
+                        <p>Technical support:<a href="#"> 107 Website studio</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
