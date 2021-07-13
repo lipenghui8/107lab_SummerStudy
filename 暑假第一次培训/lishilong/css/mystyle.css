@@ -1,0 +1,128 @@
+#daohang a{
+    color: gray;
+    transition: 0.8s;
+    font-family: cursive;
+    font-size: 17px;
+}
+#daohang .newactive a{
+    color: white;
+}
+#daohang a:hover{
+    color: #B6124A;
+    background-color: white;
+}
+.newactive{
+    background-color: #B6124A;
+    border-radius: 0.3em;
+}
+#menu li a{
+    font-size: 13px;
+    font-family: unset;
+    color: rgb(207, 206, 206);
+}
+#menu{
+    background-color: rgba(0, 0, 0,0.5);
+}
+#menu li a:hover{
+    background-color: rgba(250, 249, 249, 0.1);
+    color: white;
+}
+#renwu{background-color: white;}
+#pa a{
+    color: #B6124A;
+    transition: 0.8s;
+}
+#pa a:hover{
+    color: #3f82bb;
+}
+#one a{
+    color: white;
+}
+#one a:hover{
+    color: #3f82bb;
+}
+#two a{
+    color: white;
+}
+#two a:hover{
+    color: #3f82bb;
+}
+#three a{
+    color: white;
+}
+#three a:hover{
+    color: #3f82bb;
+}
+#four a{
+    color: white;
+}
+#four a:hover{
+    color: #3f82bb;
+}
+#yi{
+    background-color: #DDDDDD;
+    padding: 3%;
+    padding-left: 5%;
+}
+#yi:hover{
+    background-color: rgb(104, 104, 104);
+}
+#er{
+    background-color: #DDDDDD;
+    padding: 3%;
+    padding-left: 5%;
+}
+#er:hover{
+    background-color: rgb(104, 104, 104);
+}
+#san{
+    background-color: #DDDDDD;
+    padding: 3%;
+    padding-left: 5%;
+}
+#san:hover{
+    background-color: rgb(104, 104, 104);
+}
+#si{
+    background-color: #DDDDDD;
+    padding: 3%;
+    padding-left: 5%;
+}
+#si:hover{
+    background-color: rgb(104, 104, 104);
+}
+#icon a i{
+    color: #8C8C8C;
+    font-size: 30px;
+    transition: 0.8s;
+    margin: 18px;
+}
+#icon a i:hover{
+    color: #B6124A;
+}
+#list{
+    margin-top: 1%;
+}
+#list a{
+    margin: 1%;
+    color: #AAAAAA;
+    font-size: 12px;
+}
+#list a:hover{
+    color: white;
+}
+#list1{
+    margin-top: 1%;
+}
+#list1 p{
+    font-size: 12px;
+    color: #AAAAAA;
+}
+#list1 a{
+    margin: 1%;
+    color: #AAAAAA;
+    font-size: 12px;
+}
+#list1 a:hover{
+    color: white;
+}
