@@ -1,0 +1,11 @@
+.row{
+	background: url(../images/banner1.jpg) no-repeat -460px -120px; 
+	width: 100%;
+	height: 100px; 
+	margin-left: 0px;
+	border-bottom: #b6124a 2px solid;
+}
+.row h1{
+	color: white;
+	padding-top: 12px;
+}
