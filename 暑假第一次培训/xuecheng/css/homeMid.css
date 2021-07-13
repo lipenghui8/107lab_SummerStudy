@@ -1,0 +1,85 @@
+#h1 .h11{
+	argin-right: 60px;
+	padding-left: 15px;
+}
+#h10 ul{
+	list-style: none;
+	padding: 0;
+}
+#h10 ul li{
+	height: 60px;
+	border-top: #e2e2e2 1px solid;
+}
+#h1 .h12{
+	display: inline-block; 
+	margin-right: 10px; 
+	color: #b6124a;
+	height: 50px;
+	width: 10%;
+	float: left;
+	padding-top: 10px;
+}
+#h1 ul li{
+	width: 100%;
+	padding-top: 10px;
+}
+#h1 ul li a{
+	color: #b6124a;
+}
+#h2 img{
+	width: 380px;
+	margin: 4px 30px 20px 4px;
+	padding-right: 5px;
+	float: left;"
+} 
+#h2 a{
+	font-size: 16px;
+	color: #b6124a;
+}
+#h3 div{
+	border-left: #eeeeee 4px solid;
+	margin-top: 10px; 
+	color: #a3a3a3;"
+}
+#h3 p{
+	font-size: 18px; 
+	padding-top:10px;
+	padding-left: 15px;
+}
+#h4{
+	padding: 0;
+}
+#h4 .col-md-2{
+	margin-right: 50px;
+	margin-top: 30px;
+}
+.up{
+	width: 270px;
+	margin-left: -10px;
+	padding: 5px;
+}
+.up a{
+	color: white;
+}
+
+.up{
+	background: #b6124a;
+}
+#h4 img{
+	margin-top: 0;
+}
+.down{
+	width: 270px;
+	margin-left: -10px;
+	background: #e2e2e2;
+	padding: 10px;
+}
+.down a{
+	color: black;
+}
+.up a:hover{
+	color: skyblue;
+}
+.down:hover{
+	background: gray;
+}
