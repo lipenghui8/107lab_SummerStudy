@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>index</title>
+    <link rel="stylesheet" href="css/bannerStyle.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="http://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
+    <!-- 警告：通过 file:// 协议（就是直接将 html 页面拖拽到浏览器中）访问页面时 Respond.js 不起作用 -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div style="height: 130px;">
+        <div class="container backg">
+            <img src="http://cs.henu.edu.cn/english/assets/images/backgroundimg.png">
+        </div>
+        <div class="container-fluid backg2">
+            <img class="home-back1" src="images/henulogo.png">
+        </div>
+    </div>
+    <div clas="container-fluid nav12">
+        <div class="row">
+            <div class="  visible-xs  nav-more  pull-right">
+                <ul class="glyphicon glyphicon-menu-hamburger dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                </ul>
+            </div>
+            <div class="hidden-xs nava pull-right">
+                <ul>
+                    <li class="active1"><a href="#">HOME</a></li>
+                    <li><a href="html/about.html">ABOUT</a></li>
+                    <li role="presentation" class="dropdown">
+                     <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                        ADIMISSION <span class="caret"></span>
+                      </a>
+                        <ul class="downa dropdown-menu">
+                            <li><a href="html/undergraduate.html">Undergraduate Program</a></li>
+                            <li><a href="html/master.html">Mater Program</a></li>
+                            <li><a href="html/phd.html">PhD Program</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="html/research.html">RESEARCH</a></li>
+                    <li><a href="html/contact.html">CONTACT</a></li>
+                    <li><a href="http://cs.henu.edu.cn/">CHINESE</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+        <div class="container">
+            <div style="background-image: url(./images/slides/henu1.jpg);background-repeat: no-repeat;background-size: cover;">
+                <div class="fullwidthbanner-container" >
+                    <div class="fullwidthbanner">
+                        <ul>
+                            <li data-transition="3dcurtain-vertical" data-slotamount="15" data-masterspeed="300" data-link="#">
+                                <img src="images/slides/banner0.jpg" alt="1" data-bgposition="center 0"/>
+                                <!--<div class="tp-caption slider-text-title sft str" data-x="center" data-y="400" data-speed="300" data-start="800" data-easing="easeInQuad" data-end="6000" data-endspeed="500" style="padding: 0 100px;font-size:24px; background: rgba(0,0,0,0.6); color: #fff; height: 60px;line-height: 60px;">中职评估调研团队（2013.10）</div>-->
+                            </li>
+                            <li data-transition="papercut" data-slotamount="15" data-masterspeed="300" data-link="#">
+                                <img src="images/slides/banner1.jpg" alt="2" />
+                                <!--<div class="tp-caption slider-text-title sft str" data-x="center" data-y="400" data-speed="300" data-start="800" data-easing="easeInQuart" data-end="6000" data-endspeed="500" style="padding: 0 100px;font-size:24px; background: rgba(0,0,0,0.6); color: #fff; height: 60px;line-height: 60px;">中职评估培训会（2014.4）</div>-->
+                            </li>
+                            <li data-transition="slotslide-horizontal" data-slotamount="15" data-masterspeed="300" data-link="#">
+                                <img src="images/slides/banner2.jpg" alt="3" />
+                                <!--<div class="tp-caption slider-text-title sft str" data-x="center" data-y="400" data-speed="300" data-start="800" data-easing="easeInQuint" data-end="6000" data-endspeed="500" style="padding: 0 100px;font-size:24px; background: rgba(0,0,0,0.6); color: #fff; height: 60px;line-height: 60px;">中职评估调研团队（2015.4）</div>-->
+                            </li>
+                        </ul>
+                        <div class="tp-bannertimer"></div>
+                    </div>
+                </div>
+            </div>
+                
+        </div>
+            <script>
+                $(function() {
+                    jQuery('.fullwidthbanner').revolution({
+                        delay: 9000,
+                        startwidth: 1170,
+                        startheight:450,
+                        hideThumbs: 10,
+                        fullWidth: "on",
+                        forceFullWidth: "on"
+                    });
+                });
+            </script>
+            </div>
+            <div class="content" >
+                <div class="aboutus" data-aos="zoom-in">
+                    <div class="row">
+                        <h3 class="col-md-4 ">About us</h3>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 content1">
+                            <img src="images/xueyuan.png">
+                        </div>
+                        <div class="col-md-7 content2">
+                            <div class="content21">
+                                <p>The school has a first level doctoral degree in Software Engineering
+                                    discipline, a secondary level doctorate degree in Remote Sensing
+                                    Information Science and Technology discipline, 3 first level master’s
+                                    degree in Computer Science and Technology discipline, Software
+                                        Engineering discipline and Control Science and Engineering discipline,
+                                        5 undergraduate disciplines in Computer Science and Technology, Data
+                                        Science and Big Data Technology, Network Engineering, Information 
+                                        Security and Automation...<a href="html/about.html">raed more</a></p>
+                                
+                            </div>
+                            <div class="content22">
+                                <p>Keep pace with the times, develop and innovate, and turn Henan
+                                    University into a national top university</p>
+
+                                <p>--April,7 2004  Jiang Zemin</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content-m"  aos="zoom-in">
+                <div class="row">
+                    <div class="col-md-4 news"  data-aos="zoom-in">
+                        <h2>News</h2>
+                        <ul>
+                            <li><a href="html/freshman.html">Freshman Cup Basketball Tournament Successfully Held</a></li>
+                            <li><a href="html/our.html">Our institute won the third national university artificial intelligence education teaching "innovation award</a></li>
+                            <li><a href="html/theactivity.html">The activity of “Military training uniform donation” held by the Youth Association of The School of Computer and Information Engineering</a></li>
+                            <li><a href="html/internationnal.html">International Day of the Blind activity held by the Youth Association of The School of Computer and Information Engineering</a></li>
+                            <li><a href="html/theactivityof.html">The activity of "Free clinic of computers, warm up the winter" held by
+
+                                the Youth Association of The School of Computer and Information Engineering</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 recruitment" data-aos="zoom-in">
+                        <h2>Recruitment</h2>
+                        <ul>
+                            <li><a href="html/postdoctoral.html">Postdoctoral fellows Recruitment for School of Computer and Information Engineering Henan University</a></li>
+                            <li><a href="html/thedoctoral.html">THE DOCTORAL COURSE IN School of Computer and Information Engineering HENAN UNIVERSITY</a></li>
+                         </ul>
+                    </div>
+                    <div class="col-md-4 recruitment"  data-aos="zoom-in">
+                        <h2>Locations</h2>
+                        <div>
+                            <img src="images/location.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content-b"  data-aos="zoom-in">
+                <h2>Provincial platform</h2>
+                <div class="col-md-3 col-sm-6 col-xs-6 con-b">
+                    <div class="b-top">
+                        <a href="html/henankey.html">Henan Key Laboratory of Big Data ...</a>
+                    </div>
+                    <div class="b-middle">
+                        <img src="images/bigdate.png">
+                    </div>
+                    <div class="b-bottom">
+                        <a href="html/henankey.html">Henan Key Laboratory of Big Data Analysis and Processing....</a>
+                    </div>
+                </div>
+                <div class="col-md-3  col-sm-6 col-xs-6 con-b">
+                    <div class="b-top">
+                        <a href="html/henanlab.html">Henan Laboratory of Spatial ...</a>
+                    </div>
+                    <div class="b-middle">
+                        <img src="images/kjxx.png">
+                    </div>
+                    <div class="b-bottom">
+                        <a href="html/henanlab.html">Henan Laboratory of Spatial Information Processing and Engineering</a>
+                    </div>
+                </div>
+                <div class="col-md-3  col-sm-6 col-xs-6 con-b">
+                    <div class="b-top">
+                        <a href="html/henancar.html">Henan car networking technology...</a>
+                    </div>
+                    <div class="b-middle">
+                        <img src="images/clw.png">
+                    </div>
+                    <div class="b-bottom">
+                        <a href="html/henancar.html">Henan car networking technology collaboration International Joint...</a>
+                    </div>
+                </div>
+                <div class="col-md-3  col-sm-6 col-xs-6 con-b">
+                    <div class="b-top">
+                        <a href="html/henanint.html">Henan Intelligent Technology and ...</a>
+                    </div>
+                    <div class="b-middle">
+                        <img src="images/znyy.png">
+                    </div>
+                    <div class="b-bottom">
+                        <a href="html/henanint.html">Henan Intelligent Technology and Applied Engineering Technology...</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+       <div class="container foot">
+            <footer>
+                <div class="row">
+                    <div class="foot1">
+                        <div class="foot1-c">
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-dribbble"></i></a>
+                            <a href="#"><i class="fa fa-flickr"></i></a>
+                            <a href="#"><i class="fa fa-comments-o"></i></a>
+                    </div>
+                    </div>
+                    <div class="foot2">
+                        <div class="col-md-6 col-sm-12 col-xs-12 footleft">
+                            <a href="#"> Home</a><span>|</span>
+                            <a href="html/about.html">About</a><span>|</span>
+                            <a href="html/research.html">Research</a><span>|</span>
+                            <a href="html/undergraduate.html">Undergraduate</a><span>|</span>
+                            <a href="html/postdoctoral.html">Postgraduate</a><span>|</span>
+                            <a href="html/contact.html">Contact</a><span>|</span>
+                        </div>
+                        <div class="col-md-6 col-sm-12 col-xs-12 footright">
+                            <p>All copyright © school of computer and information engineering henan university</p>
+                            <p>Technical support: <a class="lab" href="http://107.cuisf.top/">107 Website studio</a></p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+       
+
+
+
+
+
+
+    <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/plugins.min.js"></script>
+    <script type="text/javascript" src="js/revolution.min.js"></script>
+    <script>
+        $(function() {
+            jQuery('.fullwidthbanner').revolution({
+                delay: 9000,
+                startwidth: 1170,
+                startheight:450,
+                hideThumbs: 10,
+                fullWidth: "on",
+                forceFullWidth: "on"
+            });
+        });
+    AOS.init();
+    </script>
+  </body>
+</html>
