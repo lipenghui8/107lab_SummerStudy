@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding:0;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+html { overflow-x:hidden; }
+body{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+@keyframes anim{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+.dropdown-menu {
+    background-color: none;
+}
+.open>.dropdown-menu {
+    display: block;
+}
+.open>.dropdown-menu {
+    display: block;
+}
+.backg{
+    position: absolute;
+    right: 0px;
+    width: 450px;
+}
+
+.backg2{
+    float: left;
+    position: absolute;
+    top:30px;
+}
+.nav12{
+    position: relative;
+    top: 1000px;;
+    padding-right:;
+    padding-top: 130px;
+    background-color: black;
+}
+.nava li{
+    float: left;
+    padding: 10px;
+}
+.downa{
+    padding: 0px;
+    width: 180px;
+}
+.downa li{
+    width: 100%;
+    background-color: rgba(0, 0, 0);
+}
+.downa{
+    opacity: 0.8;
+}
+
+.downa li a{
+    color:rgba(255, 0, 0, 0.8);
+    padding: 0px;
+}
+.downa li:hover{
+    background-color: rgba(100, 100, 100,1);
+}
+
+.downa li:hover a{
+    background-color: rgba(100, 100, 100,1);
+    color:rgba(255, 255, 255, 1);
+}
+.nava{
+    padding-right: 20px;
+}
+.nava li a{
+    color: #555;
+}
+.active1{
+    background-color: #B6124A;
+    border-radius: 5px;
+}
+.active1 a{
+    color: #fff!important;
+}
+.active1:hover{
+    background-color: #fff;
+}
+.nava a:hover{
+    color:#B6124A;
+    text-decoration: none;
+}
+.active1:hover a{
+    color:#B6124A!important;
+    text-decoration: none;
+}
+
+/*xs nav*/
+.glyphicon-menu-hamburger{
+    width:40px;
+    height: 30px;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+}
+.nav-more{
+    margin-top: .666666rem;
+    background-color: #000;
+    border-radius: 10px;
+    margin: .666667rem;
+    position: relative;
+    right: 4rem;
+    cursor: pointer;
+}
+
+/*picture*/
+.picture{
+    border: solid 2px #B6124A;
+    height: 80px;
+    width:100%;
+    overflow: hidden;
+    background: url("../images/slides/banner1.jpg");
+    background-size: 100%;
+}
+@media screen and (max-width:767px) {
+    .picture{
+        background-size: auto;
+    }
+}
+.picture p{
+    color: #fff;
+    font-size: "sans-serif";
+    position: relative;
+    left: 20px;
+    font-size: 30px;
+    padding:20px 30px;
+    margin: 0px;
+}
+
+
+
+/*content*/
+.content div{
+    border: 1px solid #aaa;
+    margin: 30px;
+    overflow: hidden;
+}
+.content h3{
+    font-family: "Open Sans";
+    padding-left: 20px;
+}
+.content img{
+    width: 300px;
+    padding:10px 20px;
+}
+.content p{
+    text-indent: 2em;
+    padding: 20px;
+}
+.img-left img{
+    float:left;
+}
+.img-right img{
+    float: right;
+}
+
+/*foot*/
+
+.foot{
+    width: 100%;
+    padding: 0 ;
+}
+footer{
+    background-color: #ddd;
+    height: auto;
+    width: 100%;
+    position: relative;
+    margin-top: 50px;
+}
+.foot1{
+    height: 80px;
+    font-size: 20px;
+}
+.foot1-c{
+    position: relative;
+    left: 40%;
+    top: 10%;
+}
+.foot1-c a{
+    color: #888;
+    padding: 10px;
+    font-size: 40px;
+}
+.fa:hover{
+    color: #B6124A!important;
+}
+.foot2{
+    background-color: #000;
+    height: 8rem;
+    color: #fff;
+    padding-left: 20px;
+}
+.foot2 span{
+    position: relative;
+    top:20px;
+    font-size: 10px;
+    color: #aaa;
+}
+.footleft a{
+    padding :4px 8px;
+    position: relative;
+    top:20px;
+    font-size: 10px;
+    color: #aaa;
+}
+.foot2 p{
+    position: relative;
+    top:20px;
+    font-size: 10px;
+    margin-bottom: 0;
+    color: #aaa;
+    text-align: right;
+}
+.footright a{
+    font-size: 10px;
+    color: #aaa;
+}
+.foot a:hover{
+    color: #fff;
+}
+.footright {
+    padding-right: 30px;
+}
+@media screen and (max-width:767px) {
+    .footright p{
+        text-align: center;
+    }
+}
+
+/*resreach*/
+.contentre {
+    padding-left: 50px;
+}
+.contentre p{
+    text-indent: 2em;
+}
+.rec{
+    border: solid 1px #ccc;
+    margin: 10px;
+}
+
+/*contact*/
+.concin{
+    border: solid 1px #ddd;
+}
+.concin h2{
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+    margin: 0px;
+    padding: 20px 0px;
+    width: 100%;
+}
+.conc1{
+    padding:30px;
+    padding-bottom: 50px;
+}
+.con1 p{
+    padding:10px;
+}
+.con1 h3{
+    padding :10px;
+}

@@ -1,0 +1,301 @@
+*{
+    margin: 0;
+    padding:0;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+}html { overflow-x:hidden; }
+body{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+@keyframes anim{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+.dropdown-menu {
+    background-color: none;
+}
+.open>.dropdown-menu {
+    display: block;
+}
+.open>.dropdown-menu {
+    display: block;
+}
+.backg{
+    position: absolute;
+    right: 0px;
+    width: 450px;
+}
+
+.backg2{
+    float: left;
+    position: absolute;
+    top:30px;
+}
+.nav12{
+    position: relative;
+    top: 1000px;;
+    padding-right:;
+    padding-top: 130px;
+    background-color: black;
+}
+.nava li{
+    float: left;
+    padding: 10px;
+}
+.downa{
+    padding: 0px;
+    width: 180px;
+}
+.downa li{
+    width: 100%;
+    background-color: rgba(0, 0, 0);
+}
+.downa{
+    opacity: 0.8;
+}
+
+.downa li a{
+    color:rgba(255, 255, 255, 0.8);
+    padding: 0px;
+    font-size: 10px;
+}
+.downa li:hover{
+    background-color: rgba(100, 100, 100,1);
+}
+
+.downa li:hover a{
+    background-color: rgba(100, 100, 100,1);
+    color:rgba(255, 255, 255, 1);
+}
+.nava{
+    padding-right: 20px;
+}
+.nava li a{
+    color: #555;
+}
+.active1{
+    background-color: #B6124A;
+    border-radius: 5px;
+
+}
+.active1 a{
+    color: #fff!important;
+}
+.active1:hover{
+    background-color: #fff;
+}
+.nava a:hover{
+    color:#B6124A;
+    text-decoration: none;
+}
+.active1:hover a{
+    color:#B6124A!important;
+    text-decoration: none;
+}
+.active1:hover li a{
+    color:#fff!important;}
+
+/*xs nav*/
+.glyphicon-menu-hamburger{
+    width:40px;
+    height: 30px;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+}
+.nav-more{
+    margin-top: .666666rem;
+    background-color: #000;
+    border-radius: 10px;
+    margin: .666667rem;
+    position: relative;
+    right: 4rem;
+    cursor: pointer;
+}
+
+/*content*/
+.picture{
+    background-color: #000;
+    margin: 0px;
+    position: relative;
+    top:-20px;
+}
+h2{
+    font-family: 'Oswald', sans-serif;
+}
+.content{
+    margin: 10px 30px;
+}
+.picture h2{
+    color:#fff;
+    font-family: 'Oswald', sans-serif;
+    line-height: 80px;
+    padding: 0 30px;
+    border-top:solid #B6124A 2px ;
+    border-bottom:solid #B6124A 2px ;
+}
+.nav1{
+    width: 210px;
+}
+.nav2{
+    width: 150px;
+    float: left;
+}
+.nav3{
+    width: 150px;
+}
+.left h2{
+    padding-left: 30px;
+}
+.navb div{
+    float: left;
+}
+.navb a{
+    font-size: 15px;
+}
+.t1{
+    color:#000;
+    padding-left: 10px;
+}
+.active2{
+    color:#B6124A;
+}
+.navb li{
+    padding :10px 0px;
+}
+.navb a:hover{
+    color:#B6124A;
+}
+.navb div{
+    padding-right: 0px;
+}
+.downb{
+    position: absolute;
+    left: 150px;
+    background-color: black;
+    opacity: 0.8;
+}
+.downb li{
+    padding:0px
+}
+.downb a{
+    color:#fff!important;
+    opacity: 1;
+    font-size: 10px;
+    line-height: 30px;
+}
+.downb li:hover a{
+    color:#000!important;
+}
+
+/*right*/
+
+.right h2{
+    color:#B6124A;
+    font-size: 25px;
+}
+/*table*/
+table{
+    border:1px solid #ddd;
+    overflow: hidden;
+    white-space: break-all;
+}
+table th{
+    font-family: inherit;
+    text-align: center;
+    padding: 0px;
+}
+.table-title{
+    background:#eee;
+}
+th{
+    border: solid 1px #ddd;
+}
+td{
+    border: 1px solid #ddd;
+    text-align: center;
+}
+/*foot*/
+
+.foot{
+    width: 100%;
+    padding: 0 ;
+    font-weight: bold;
+}
+footer{
+    background-color: #ddd;
+    height: auto;
+    width: 100%;
+    position: relative;
+    margin-top: 50px;
+}
+.foot1{
+    height: 80px;
+    font-size: 20px;
+}
+.foot1-c{
+    position: relative;
+    left: 40%;
+    top: 10%;
+}
+.foot1-c a{
+    color: #888;
+    padding: 10px;
+    font-size: 40px;
+}
+.fa:hover{
+    color: #B6124A!important;
+}
+.foot2{
+    background-color: #000;
+    height: 8rem;
+    color: #fff;
+    padding-left: 20px;
+}
+.foot2 span{
+    position: relative;
+    top:20px;
+    font-size: 10px;
+    color: #aaa;
+}
+.footleft a{
+    padding :4px 8px;
+    position: relative;
+    top:20px;
+    font-size: 10px;
+    color: #aaa;
+}
+.foot2 p{
+    position: relative;
+    top:20px;
+    font-size: 10px;
+    margin-bottom: 0;
+    color: #aaa;
+    text-align: right;
+}
+.footright a{
+    font-size: 10px;
+    color: #aaa;
+}
+.foot a:hover{
+    color: #fff;
+}
+.footright {
+    padding-right: 30px;
+}
+@media screen and (max-width:767px) {
+    .footright p{
+        text-align: center;
+    }
+}

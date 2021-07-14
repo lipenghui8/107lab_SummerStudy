@@ -1,0 +1,320 @@
+*{
+    margin: 0;
+    padding:0;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+html { overflow-x:hidden; }
+@keyframes anim{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+.dropdown-menu {
+    background-color: none;
+}
+.open>.dropdown-menu {
+    display: block;
+}
+.open>.dropdown-menu {
+    display: block;
+}
+.backg img{
+    position: absolute;
+    right: 0px;
+    width: 450px;
+}
+
+.backg2{
+    float: left;
+    position: absolute;
+    top:30px;
+}
+.nav12{
+    position: relative;
+    top: 1000px;;
+    padding-right:;
+    padding-top: 130px;
+    background-color: black;
+}
+.nava li{
+    float: left;
+    padding: 10px;
+}
+.downa{
+    padding: 0px;
+    width: 180px;
+}
+.downa li{
+    width: 100%;
+    background-color: rgba(0, 0, 0);
+}
+.downa{
+    opacity: 0.8;
+    
+}
+
+.downa li a{
+    color:rgba(255, 0, 0, 0.8);
+    padding: 0px;
+}
+.downa li:hover{
+    background-color: rgba(100, 100, 100,1);
+}
+
+.downa li:hover a{
+    background-color: rgba(100, 100, 100,1);
+    color:rgba(255, 255, 255, 1);
+}
+.nava{
+    padding-right: 20px;
+}
+.nava li a{
+    color: #555;
+}
+.active1{
+    background-color: #B6124A;
+    border-radius: 5px;
+}
+.active1 a{
+    color: #fff!important;
+}
+.active1:hover{
+    background-color: #fff;
+}
+.nava a:hover{
+    color:#B6124A;
+    text-decoration: none;
+}
+.active1:hover a{
+    color:#B6124A!important;
+    text-decoration: none;
+}
+
+/*xs nav*/
+.glyphicon-menu-hamburger{
+    width:40px;
+    height: 30px;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+}
+.nav-more{
+    margin-top: .666666rem;
+    background-color: #000;
+    border-radius: 10px;
+    margin: .666667rem;
+    position: relative;
+    right: 4rem;
+    cursor: pointer;
+}
+
+
+
+/*banner*/
+.container{
+    width: auto;
+    height: auto;
+    width: 100%;
+}
+.banner{
+    width: 100%;
+    max-height:448px ;
+}
+.fullwidthbanner{
+    width:100%;
+    
+    border-top:2px #B6124A solid ;
+}
+/*baaner end*/
+
+
+
+/*慢慢显示
+h1{
+    position: relative;
+    top:500px;
+    animation: anim 5s;
+}
+*/
+
+
+/*content*/
+.content{
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.content h3{
+    
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    position: relative;
+    left: 4rem ;
+}
+.content1{
+    padding-left: 50px;
+}/*
+@media screen and(min-width:991px) {
+    .content1 img{
+        width:100%;}
+}*/
+@media screen and (max-width:992px) {
+    .content1 img{
+    width:407px!important;}
+}
+
+.content1 img{
+    width:100%;
+}
+.content2{
+    float: left;
+    padding-left: .666667rem;
+}
+.content21 p{
+    text-indent: 2em;
+}
+.content21 a{
+    font-weight: bold;
+    color:#B6124A;
+}
+.content22{
+    border-left: #aaa 2px solid;
+}
+.content22 p{
+    padding: 10px 20px;
+    font-family:"Georgia" ;
+    font-size: 17px;
+}
+
+
+
+/*middle content*/
+.content-m h2{
+    font-family: 'Oswald', sans-serif;
+}
+.glyphicon-triangle-right{
+    color:#B6124A;
+}
+.content-m a{
+    color: #B6124A;
+}
+.content-m div{
+    padding:20px;
+}
+.content-m li{
+    font-size: 15px;
+    line-height: 30px;
+    padding-left:30px;
+    background: url(http://cs.henu.edu.cn/english/assets/images/arrow.png) no-repeat 0 11px;;
+}
+
+
+/*bootom content*/
+.content-b{
+    overflow: hidden;
+}
+
+.content-b h2{
+    font-family: 'Oswald', sans-serif;
+    margin-left: 20px;
+}
+.con-b{
+    padding:20px;
+}
+.b-top{
+    background-color: #B6124A;
+    width: 270px;
+}
+.b-top a{
+    line-height: 30px;
+    padding: 5px;
+    color: #fff;
+}
+.b-bottom{
+    background-color: #aaa;
+    width: 270px;
+}
+.b-bottom:hover{
+    background-color: #555;
+}
+.b-bottom a{
+    line-height: 30px;
+    padding: 10px;
+    color: #000;
+}
+
+/*foot*/
+.foot{
+    width: 100%;
+    padding: 0 ;
+}
+footer{
+    background-color: #ddd;
+    height: auto;
+    width: 100%;
+    position: relative;
+    margin-top: 50px;
+}
+.foot1{
+    height: 80px;
+    font-size: 20px;
+}
+.foot1-c{
+    position: relative;
+    left: 40%;
+    top: 10%;
+}
+.foot1-c a{
+    color: #888;
+    padding: 10px;
+    font-size: 40px;
+}
+.fa:hover{
+    color: #B6124A!important;
+}
+.foot2{
+    background-color: #000;
+    height: 8rem;
+    color: #fff;
+    padding-left: 20px;
+}
+.foot2 span{
+    position: relative;
+    top:20px;
+    font-size: 10px;
+    color: #aaa;
+}
+.footleft a{
+    padding :4px 8px;
+    position: relative;
+    top:20px;
+    font-size: 10px;
+    color: #aaa;
+}
+.foot2 p{
+    position: relative;
+    top:20px;
+    font-size: 10px;
+    margin-bottom: 0;
+    color: #aaa;
+    text-align: right;
+}
+.footright a{
+    font-size: 10px;
+    color: #aaa;
+}
+.foot a:hover{
+    color: #fff;
+}
+.footright {
+    padding-right: 30px;
+}
+@media screen and (max-width:767px) {
+    .footright p{
+        text-align: center;
+    }
+}
