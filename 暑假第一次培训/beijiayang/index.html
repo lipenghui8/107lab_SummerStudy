@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1, user-scalable=no">
+		<title>bootstrap</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/bootstrap-theme.css">
+		<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="./css/bannerStyle.css">
+		<link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" >
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script src="./js/jquery-3.3.1.min.js"></script>
+		<script src="./js/jquery.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script src="js/bootstrap.min.js" ></script>
+		<style type="text/css">
+			body {
+			    font: 12px/1 Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif;
+			    background: #fff;
+			    margin: 0;
+			    padding: 0;
+			    color: #686868;
+			}
+			@font-face {
+			  font-family: 'iconfont';  /* Project id 2668851 */
+			  src: url('//at.alicdn.com/t/font_2668851_jpzudnqj3kl.woff2?t=1626084351435') format('woff2'),
+			       url('//at.alicdn.com/t/font_2668851_jpzudnqj3kl.woff?t=1626084351435') format('woff'),
+			       url('//at.alicdn.com/t/font_2668851_jpzudnqj3kl.ttf?t=1626084351435') format('truetype');
+			}	
+			.iconfont{
+				border: none;
+				color: #8c8c8c;
+			    font-family:"iconfont" !important;
+			    font-size:32px;font-style:normal;
+			    -webkit-font-smoothing: antialiased;
+			    -webkit-text-stroke-width: 0.2px;
+			    -moz-osx-font-smoothing: grayscale;
+				}
+
+			 
+		</style>
+		
+	</head>
+	<body>
+		<div class=" container-fluid" style="background: url(images/backgroundimg.png) right 0 no-repeat;height: 140px;">
+			
+				<div class="navbar-header col-md-12">
+					<div class="row col-md-12" >
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+						<a class="navbar-brand" href="#">
+						<img src="images/henulogo.png" class="img-responsive center-block" alt="Responsive image">
+						</a>
+					</div>
+				</div>
+			
+			
+		</div>
+		<div class="container-fluid" >
+			<ul id="mytab" class="nav nav-pills pull-right" role="tablist">
+				<li role="presentation" class="active"><a href=""  style="font-size: 15px;">HOME</a></li>
+				<li role="presentation" ><a href="" style="font-size: 15px;">ABOUT</a></li>
+				<li role="presentation" class="dropdown">
+				    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" haspopup="true" aria-expanded="false">
+				      ADMISSION <span class="caret"></span>
+				    </a>
+				    <ul class="dropdown-menu" role="menu">
+					  <li role="presentation"><a href="" role="menuitem" tabindex="-1">Undergraduate&nbsp;Program</a></li>
+				      <li role="presentation"><a href="" role="menuitem" tabindex="-1">Master&nbsp;Program</a></li>
+				      <li role="presentation"><a href="" role="menuitem" tabindex="-1">PhD&nbsp;Program</a></li>
+				    </ul>
+				  </li>
+				<li role="presentation" ><a href="" style="font-size: 15px;">RESEARCH</a></li>
+				<li role="presentation" ><a href="" style="font-size: 15px;">CONTACT</a></li>
+				<li role="presentation" ><a href="" style="font-size: 15px;">CHINESE</a></li>
+			</ul>
+		</div>
+		<script type="text/javascript">
+			$("#mytab a").click(function(e){
+				e.preventDefault();
+				$(this).tab("show");
+			})
+		</script>
+		
+		<div style="background-image: url(./images/banner2.jpg);background-repeat: no-repeat;background-size: cover;">
+		        <div class="fullwidthbanner-container" >
+		            <div class="fullwidthbanner">
+		                <ul>
+		                    <li data-transition="3dcurtain-vertical" data-slotamount="15" data-masterspeed="300" data-link="#">
+		                        <img src="./images/banner0.jpg" alt="1" data-bgposition="center 0"/>
+		                        <!--<div class="tp-caption slider-text-title sft str" data-x="center" data-y="400" data-speed="300" data-start="800" data-easing="easeInQuad" data-end="6000" data-endspeed="500" style="padding: 0 100px;font-size:24px; background: rgba(0,0,0,0.6); color: #fff; height: 60px;line-height: 60px;">中职评估调研团队（2013.10）</div>-->
+		                    </li>
+		                    <li data-transition="papercut" data-slotamount="15" data-masterspeed="300" data-link="#">
+		                        <img src="./images/banner2.jpg" alt="2" />
+		                        <!--<div class="tp-caption slider-text-title sft str" data-x="center" data-y="400" data-speed="300" data-start="800" data-easing="easeInQuart" data-end="6000" data-endspeed="500" style="padding: 0 100px;font-size:24px; background: rgba(0,0,0,0.6); color: #fff; height: 60px;line-height: 60px;">中职评估培训会（2014.4）</div>-->
+		                    </li>
+		                    <li data-transition="slotslide-horizontal" data-slotamount="15" data-masterspeed="300" data-link="#">
+		                        <img src="./images/henu3.jpg" alt="3" />
+		                        <!--<div class="tp-caption slider-text-title sft str" data-x="center" data-y="400" data-speed="300" data-start="800" data-easing="easeInQuint" data-end="6000" data-endspeed="500" style="padding: 0 100px;font-size:24px; background: rgba(0,0,0,0.6); color: #fff; height: 60px;line-height: 60px;">中职评估调研团队（2015.4）</div>-->
+		                    </li>
+		                </ul>
+		                <div class="tp-bannertimer"></div>
+		            </div>
+		        </div>
+		    </div>
+			<script type="text/javascript" src="./js/plugins.min.js"></script>
+			<script type="text/javascript" src="./js/revolution.min.js"></script>
+			<script>
+			    $(function() {
+			        jQuery('.fullwidthbanner').revolution({
+			            delay: 9000,
+			            startwidth: 1170,
+			            startheight:450,
+			            hideThumbs: 10,
+			            fullWidth: "on",
+			            forceFullWidth: "on"
+			        });
+			    });
+			</script>
+		
+		<section class="container" data-aos="zoom-in" style="margin-top: 30px;">
+		            <div class="heading">
+		                <!-- Heading -->
+		                <h2>About us</h2>
+		            </div>
+		            <div class="row">
+		                <div class="col-md-4">
+		                    <img src="images/xueyuan.png" alt="" class="img-responsive center-block" alt="Responsive image">
+		                </div>
+		                <div class="col-md-8" style="padding-top: 20px;">
+		                    
+		                  
+		                  <p style="text-indent: 2em;font-family: "\534E\6587\7EC6\9ED1";">The school has a first level doctoral degree in Software Engineering discipline, a secondary level doctorate degree in Remote Sensing Information Science and Technology discipline, 3 first level master鈥檚 degree in Computer Science and Technology discipline, Software Engineering discipline and Control Science and Engineering discipline, 5 undergraduate disciplines in Computer Science and Technology, Data Science and Big Data Technology, Network Engineering, Information Security and Automation... <a href="#" title="read more" class="btn-inline " target="_self" style="color: #b6124a;font-weight: 700;" >read more</a></p>
+		                    
+		                    <blockquote class="blockquote-1">
+		                        <p style="font-style: italic; color: #999999;" >Keep pace with the times, develop and innovate, and turn Henan University into a national top university</p>
+		                        <small>April,7 2004&emsp; <cite title="Source Title">Jiang Zemin</cite></small>
+		                    </blockquote>
+		                </div>
+		            </div>
+		</section>
+		
+		<section class="container" >
+			<div class="row">
+				<div class="col-md-4" data-aos="zoom-in">
+					<div class="title-box  clearfix">
+						<h2 class="title-box_primary">News</h2>
+					</div>
+					<div class="list styled custom-list">
+						<ul style="border-top: 1px solid #f2f2f2;">
+							<li style="border-top: 1px solid #f2f2f2;line-height: 25px;font-size: 15px;" ><a href="" title="Freshman Cup Basketball Tournament Successfully Held" style="color: firebrick;">Freshman Cup Basketball Tournament Successfully Held</a></li>
+							<li style="border-top: 1px solid #f2f2f2;line-height: 25px;font-size: 15px;"><a href="" title="Our institute won the third national university artificial intelligence education teaching &quot;innovation award&quot;" style="color: firebrick;">Our institute won the third national university artificial intelligence education teach...</a></li>
+							<li style="border-top: 1px solid #f2f2f2;line-height: 25px;font-size: 15px;"><a href="" title="The activity of &quot;Military training uniform donation&quot; held by  the Youth Association of The School of Computer and Information Engineering" style="color: firebrick;">The activity of "Military training uniform donation" held by the Youth Association o...</a></li>
+							<li style="border-top: 1px solid #f2f2f2;line-height: 25px;font-size: 15px;"><a href="" title="International Day of the Blind activity held by  the Youth Association of The School of Computer and Information Engineering"  style="color: firebrick;">International Day of the Blind activity held by the Youth Association of The School of...</a></li>
+							<li style="border-top: 1px solid #f2f2f2;line-height: 25px;font-size: 15px;"><a href="" title="The activity of &quot;Free clinic of computers, warm up the winter&quot; held by the Youth Association of The School of Computer and Information Engineering" style="color: firebrick;">The activity of "Free clinic of computers, warm up the winter" held by the Youth Associ...</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-4" data-aos="zoom-in">
+					<div class="title-box  clearfix">
+						<h2 class="title-box_primary">Recruitment</h2>
+					</div>
+					<div class="list styled custom-list">
+						<ul>
+							<li style="border-top: 1px solid #f2f2f2;line-height: 25px;font-size: 15px;"><a href="" title="Postdoctoral fellows Recruitment for School of Computer and Information Engineering Henan University" style="color: firebrick;">Postdoctoral fellows Recruitment for School of Computer and Information Engineering Henan University</a></li>
+							<li style="border-top: 1px solid #f2f2f2;line-height: 25px;font-size: 15px;"><a href="" title="THE DOCTORAL COURSE IN School of Computer and Information Engineering HENAN UNIVERSITY" style="color: firebrick;">THE DOCTORAL COURSE IN School of Computer and Information Engineering HENAN UNIVERSITY</a></li>
+						</ul>
+					</div>
+					
+				</div>
+				<div class="col-md-4" data-aos="zoom-in">
+					<div class="title-box  clearfix">
+						<h2 class="title-box_primary">Locations</h2>
+					</div>
+					<div id="containermap" style="width:342px;height: 197px; border: 1px solid gainsboro;">
+						<img src="./images/location.png" class="img-responsive">
+					</div>
+				</div>
+			</div>
+		</section>
+				
+		<section class="news-box">
+			<div class="container">
+				<h2>Provincial platform</h2>
+				<div class="row">
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6" data-aos="zoom-in">
+						<div class="news-header">
+							<li style="list-style-type: none;background-color:firebrick ;line-height: 25px;"><a href="#" style="color: #fff;margin-left:10px;">Henan Key Laboratory of Big Data ...</a></li>
+						</div>
+						<img src="./images/bigdate.png" alt="" class="img-responsive">
+						<div class="news-footer">
+							<li style="list-style-type: none;background-color:#dddddd ;line-height: 25px;"><a href="#" style="color: black;margin-left:10px;"><span>Henan Key Laboratory of Big Data Analysis and Processing....</span></a></li>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6" data-aos="zoom-in">
+						<div class="news-header">
+							<li style="list-style-type: none;background-color:firebrick ;line-height: 25px;"><a href="#" style="color: #fff;margin-left:10px;">Henan Laboratory of Spatial  ...</a></li>
+						</div>
+						<img src="./images/kjxx.png" alt="" class="img-responsive">
+						<div class="news-footer">
+							<li style="list-style-type: none;background-color:#dddddd ;line-height: 25px;"><a href="#" style="color: black;margin-left:10px;"><span>Henan Laboratory of Spatial Information Processing and Engineering</span></a></li>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6" data-aos="zoom-in">
+						<div class="news-header">
+							<li style="list-style-type: none;background-color:firebrick ;line-height: 25px;"><a href="#" style="color: #fff;margin-left:10px;">Henan car networking technology...</a></li>
+						</div>
+						<img src="./images/clw.png" alt="" class="img-responsive">
+						<div class="news-footer">
+							<li style="list-style-type: none;background-color:#dddddd ;line-height: 25px;"><a href="#" style="color: black;margin-left:10px;"><span>Henan car networking technology collaboration International Joint...</span></a></li>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6" data-aos="zoom-in">
+						<div class="news-header">
+							<li style="list-style-type: none;background-color:firebrick ;line-height: 25px;"><a href="#" style="color: #fff;margin-left:10px;">Henan Intelligent Technology and ...</a></li>
+						</div>
+						<img src="./images/znyy.png" alt="" class="img-responsive">
+						<div class="news-footer">
+							<li style="list-style-type: none;background-color:#dddddd ;line-height: 25px;"><a href="#" style="color: black;margin-left:10px;"><span>Henan Intelligent Technology and Applied Engineering Technology...</span></a></li>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+			
+			
+		</section>
+		<footer class="footer">
+			<div class=" container" style="background-color: #ececec;width: 100%;margin-top: 30px;">
+				<div class="social text-center" style="padding-top: 20px;padding-bottom: 20px;" >
+					<a href="#"><i class="iconfont">&#xe673;</i></a>
+					<a href="">&nbsp;&nbsp;&nbsp;</a>
+					<a href="#"><i class="iconfont">&#xe600;</i></a>
+					<a href="">&nbsp;&nbsp;&nbsp;</a>
+					<a href="#"><i class="iconfont">&#xe679;</i></a>
+					<a href="">&nbsp;&nbsp;&nbsp;</a>
+					<a href="#"><i class="iconfont">&#xeeb9;</i></a>
+					<a href="">&nbsp;&nbsp;&nbsp;</a>
+					<a href="#"><i class="iconfont">&#xe604;</i></a>
+				</div>
+			</div>
+			<div class="footer2 " style="background-color: #222222;">
+			    <div class="container ">
+			        <div class="row ">
+						<div class="col-md-6 panel " style="background-color: #222222;">
+			                <div class="panel-body ">
+			                    <p class="simplenav ">
+			                        <a href="#" style="color: #aaaaaa;">Home</a> |
+			                        <a href="#" style="color: #aaaaaa;">About</a> |
+			                        <a href="#" style="color: #aaaaaa;">Research</a> |
+			                        <a href="#" style="color: #aaaaaa;">Undergraduate</a> |
+			                        <a href="#" style="color: #aaaaaa;">Postgraduate</a> |
+			                        <a href="#" style="color: #aaaaaa;">Contact</a>
+			                    </p>
+			                </div>
+			            </div>
+			
+			            <div class="col-md-6 panel" style="background-color: #222222;">
+			                <div class="panel-body">
+			                    <p class="text-right ">
+			                        All copyright &copy; school of computer and information engineering henan university<br>
+			                        Technical support: <a href="#" target="_blank " title="107Lab " style="color: #aaaaaa;">107 Website studio</a>
+			                    </p>
+			                </div>
+			            </div>
+					</div>
+			    </div>
+			</div>
+		</footer>
+		<script>
+			
+					AOS.init({
+						easing: 'ease-out-back',
+						duration: 1000
+					});
+		</script>
+	</body>
+</html>
