@@ -2,7 +2,7 @@
 
 ## 本次作业学习路线
 
-第一步：熟悉python基本语法，学习时可以参考已学语言，对比记忆
+**第一步**：熟悉python基本语法，学习时可以参考已学语言，对比记忆
 
 以下课程快速过一遍：
 
@@ -12,7 +12,7 @@ https://www.imooc.com/learn/1264（进阶篇）
 
 
 
-第二步：python连接数据库，针对数据库，**用python语句实现数据库内容的增删改查**
+**第二步**：python连接数据库，针对数据库，**用python语句实现数据库内容的增删改查**
 
 以下课程过一遍，重点学习Pymysql部分：
 
@@ -20,7 +20,7 @@ python进阶之Mysql入门教程:https://www.aliyundrive.com/s/J1JE9cerkqo
 
 
 
-第三步：学习Django框架
+**第三步**：学习Django框架
 
 以下课程认真看一遍：
 
@@ -32,7 +32,7 @@ Django练习可以在虚拟机Linux系统下，也可以在本地Windows环境�
 
 
 
-拓展资料：	
+**拓展资料**：	
 
 Python进阶Web开发教程：https://pan.baidu.com/s/1DJvG42__7DGVvou1O3D57Q  提取码：107a
 
