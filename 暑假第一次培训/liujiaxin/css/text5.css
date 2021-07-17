@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    border-radius: 4px;
+}
+li a:hover{
+    color: rgb(172,30,76)!important;
+}
+li.white a:hover{
+    color:rgb(127, 202, 245)!important;
+}
+li.red:hover{
+    background-color: white!important;
+}
+div.grey:hover{
+    background-color: rgb(118,118,118)!important;
+}
+img.pic1{
+    opacity: 1;
+}
+img.pic2{
+    opacity: 1;
+}
+img.pic3{
+    opacity: 1;
+}
+img.pic4{
+    opacity: 1;
+}
+img.pic5{
+    opacity: 1;
+}
+img.pic1:hover{
+    opacity: 0;
+}
+img.pic2:hover{
+    opacity: 0;
+}
+img.pic3:hover{
+    opacity: 0;
+}
+img.pic4:hover{
+    opacity: 0;
+}
+img.pic5:hover{
+    opacity: 0;
+}
+
+div.six a:hover{
+    color: white!important;
+}
