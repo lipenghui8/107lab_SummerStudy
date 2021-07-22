@@ -1,0 +1,35 @@
+mysql -uroot -p 进入数据库
+密码123456
+查看数据库 show databases;
+创建数据库 create database goods charset=utf8;
+实用数据库 use +..
+查看当前使用的数据库 select database();
+删除数据库 drop database goods;
+查看库中的表 show tables;
+创建表create table info(
+    -> id int unsigned primary key not null auto_increment,
+    -> name char(10) not null,
+    -> age int
+    -> );
+字段名字 数据类型  可选约束 无符号 主键 不为空 自增
+修改字段类型 alter table info modify name varchar(200) not null;
+删除表 drop table
+查看表格 desc +表名;
+查询所有列 select * from infomation;
+查询指定列 select name,age from infomation;
+全列插入 insert into infomation values(0,'小米',18,'男');
+部分列插入 insert into infomation(name) values('小网');
+全列多行插入 insert into infomation values(0,'来了',12,'女'),(0,'han',12,'女');
+部分列多行插入 insert into infomation(name) values('lilei'),('老王'),('大头');
+修改数据 update infomation set age=22 where id=4;
+删除数据 delete from infomation where  id=5;
+备份和恢复
+导出mysqldump -u用户名 -p密码  数据库名字 表名字 > 文件
+导入 cd 导数据文件路径下
+mysql -u文件名 -p密码
+use 数据库
+source data.sql
+插入测试数据
+use 数据库
+source orders.sql;
+
