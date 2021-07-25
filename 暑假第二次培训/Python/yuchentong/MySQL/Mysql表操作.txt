@@ -1,0 +1,10 @@
+1、查看当前库中所有表
+show tables;
+2、创建表
+create table 表名（字段名称 数据类型 约束条件）
+3、修改表字段类型
+alter table表名 modify列名 类型 约束
+4、删除表
+drop table 表名 
+5、查看表结构
+desc 表名

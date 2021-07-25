@@ -1,0 +1,16 @@
+#查看所有数据库
+show databases
+#创建新的数据库
+create database 数据库名 charset=uft8
+#使用数据库
+use 数据库名
+#从查看当前数据库
+select database();
+#删除数据库
+drop database 数据库名
+#登录
+mysql -uroot -p
+#启动
+net start mysql
+
+
