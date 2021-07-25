@@ -1,0 +1,5 @@
+int,bit 整数
+decimal 小数
+varchar，char 字符串
+date，time，datetime 日期时间
+enum 枚举类型
