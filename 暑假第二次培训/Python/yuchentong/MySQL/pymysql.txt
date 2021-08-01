@@ -1,0 +1,18 @@
+1、导包
+import pymysql
+2、创建mysql服务端的连接对象
+pymysql.connect(参数列表）
+3、获取游标对象
+cursor=conn.cursor()
+4、执行sql语句
+row_count=cursor.execute(sql)
+5、查询结果集
+result=cursor.fetchall()
+6、将增加和修改操作提交到数据库
+conn.commit()
+7、回滚数据
+conn.rollback()
+8、关闭游标对象
+cursor.close()
+9、关闭连接
+conn.close()
