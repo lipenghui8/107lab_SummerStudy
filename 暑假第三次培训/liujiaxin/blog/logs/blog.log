@@ -1,0 +1,8 @@
+INFO 2021-07-27 19:40:56,292 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-07-27 19:41:00,270 basehttp 161 "GET / HTTP/1.1" 200 4
+INFO 2021-07-27 19:44:01,441 autoreload 251 D:\ab—ßœ∞◊ ¡œ\Django\blog\blog\urls.py changed, reloading.
+INFO 2021-07-27 19:44:02,855 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-07-27 19:44:47,824 autoreload 637 Watching for file changes with StatReloader
+INFO 2021-07-27 19:44:51,431 urls 24 info
+INFO 2021-07-27 19:44:51,432 basehttp 161 "GET / HTTP/1.1" 200 4
+INFO 2021-07-27 19:45:43,810 autoreload 637 Watching for file changes with StatReloader
