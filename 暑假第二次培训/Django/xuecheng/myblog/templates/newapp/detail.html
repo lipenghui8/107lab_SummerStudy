@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>英雄列表</title>
+</head>
+<body>
+<ul>
+    {% for hero in herolist %}
+<li>{{hero.name}}---{{hero.content}}</li>
+{% endfor %}
+</ul>
+
+
+</body>
+</html>

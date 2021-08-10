@@ -1,0 +1,1 @@
+l=['Chinese',92,'Math',75,'English',99]

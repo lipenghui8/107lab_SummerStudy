@@ -1,0 +1,7 @@
+#备份导出
+mysqldump -u用户名 -p密码 数据库名 表名 >data.sql
+#恢复导入
+cd 数据库文件路径
+mysql -u用户名 -p密码
+use 数据库
+source data.sql

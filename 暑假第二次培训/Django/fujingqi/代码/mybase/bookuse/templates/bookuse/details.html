@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<a href="/">首页</a>
+<ul>
+{% for person in Personlist %}
+    <li><a >{{ person.name }}</a></li>
+{% endfor %}
+</ul>
+</body>
+</html>
